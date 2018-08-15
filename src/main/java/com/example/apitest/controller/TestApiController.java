@@ -17,6 +17,7 @@ public class TestApiController {
         json.put("name", "fitz");
         json.put("age", 33);
         json.put("gender", true);
+        json.put("result", "ok");
         return json;
     }
 
