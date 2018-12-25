@@ -14,13 +14,13 @@ public class TestApiController {
     @RequestMapping("/test1")
     public String test1(String name) {
         logger.info("hixxxxxxxx " + name);
-        return "Hi, test api get value is: " + name;
+        return "Hi, update1, test api get value is: " + name;
     }
 
     @RequestMapping("/test2")
     public JSONObject test2() {
         JSONObject json = new JSONObject();
-        json.put("name", "fitz");
+        json.put("name", "fitz_updated");
         json.put("age", 33);
         json.put("gender", true);
         logger.info("test2 called xxxx");
