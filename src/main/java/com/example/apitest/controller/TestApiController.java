@@ -13,7 +13,7 @@ public class TestApiController {
 
     @RequestMapping("/test1")
     public String test1(String name) {
-        logger.info("hi " + name);
+        logger.info("hixxxxxxxx " + name);
         return "Hi, test api get value is: " + name;
     }
 
@@ -23,7 +23,7 @@ public class TestApiController {
         json.put("name", "fitz");
         json.put("age", 33);
         json.put("gender", true);
-        logger.info("test2 called");
+        logger.info("test2 called xxxx");
         return json;
     }
 
